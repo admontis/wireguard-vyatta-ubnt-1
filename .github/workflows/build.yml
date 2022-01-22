@@ -294,7 +294,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        base: [udm-1.9.0-10, udm-1.10.0-8, udm-1.10.0-12, udm-se-2.2.4, udr-2.2.12]
+        base: [udm-1.9.0-10, udm-1.10.0-8, udm-1.10.0-12, udm-1.11.0, udm-se-2.2.4, udr-2.2.12]
     steps:
       - uses: actions/checkout@v2
       - name: Restore buildroot
